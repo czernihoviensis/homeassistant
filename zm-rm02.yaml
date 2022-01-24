@@ -158,10 +158,10 @@ action:
   - conditions:
     - '{{ command == ''button_4_double'' }}'
     sequence: !input 'button_four_double_press'
-   - conditions:
+  - conditions:
     - '{{ command == ''button_5_double'' }}'
     sequence: !input 'button_five_double_press'
-   - conditions:
+  - conditions:
     - '{{ command == ''button_6_double'' }}'
     sequence: !input 'button_six_double_press'
   - conditions:
